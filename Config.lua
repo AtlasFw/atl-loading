@@ -1,0 +1,3 @@
+Atlas = {}
+
+Atlas.SteamApiKey = '461D58FD6D13208C8C2E818EFDD2C7A1'
