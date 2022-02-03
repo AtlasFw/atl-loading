@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #06121f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  user-select: none;
+  filter: blur(0.3px);
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0.5vh;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #a5a5a5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+h2 {
+  font-size: 3.3vh;
+}
+.updates {
+  width: 60vh;
+  background: #06121f;
+  color: #fff;
+  height: 100vh;
+  text-align: center;
+  border-right: 0.2vw solid white;
+  float: left;
+}
+div.updates p {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  font-size: 2vh;
+}
+p.up {
+  overflow-y: auto;
+  max-height: 20vh;
+}
+.characterinfo {
+  font-size: 2vh;
+}
+.characterinfo img {
+  width: 15vh;
+  border-radius: 1vw;
+  -webkit-box-shadow: 3px 6px 15px 7px rgba(0, 0, 0, 0.54);
+  box-shadow: 3px 6px 15px 7px rgba(0, 0, 0, 0.54);
+  margin-top: 1vw;
+}
+span.steamid {
+  font-weight: 100;
+}
+hr {
+  width: 50vh;
+}
+.updatesinfo {
+  margin-top: 7vh;
+}
+.updatesinfo p {
+  margin: 3vh;
+  text-align: left;
+}
+.logo {
+  text-align: center;
+  position: absolute;
+  left: 98vh;
+  top: 17vh;
+}
+.logo img {
+  width: 42vh;
+  animation: heartbeat 6s infinite;
+  margin-left: 3vw;
+}
+.progress {
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: flex-start;
+  border-radius: 100vh;
+  align-items: center;
+  position: relative;
+  padding: 0 1vh;
+  text-align: center;
+  display: flex;
+  left: 18vh;
+  bottom: -71vh;
+  height: 2vh;
+  width: 88vh;
+}
+.progress-value {
+  animation: load 15s normal forwards;
+  box-shadow: 0 3vh 30vh -15vh #fff;
+  border-radius: 100vh;
+  height: 1vh;
+  width: 0;
+}
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.newupdates i {
+  padding: 2vh;
+  border-radius: 2vh;
+}
+hr {
+  border: 1px solid #ffffff1a;
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+.background {
+  background: #096cd6;
+}
+#stage {
+  border: 2px solid rgb(151, 149, 149);
+  margin-left: 30vh;
+}
+span.icon {
+  font-size: 2.4vh;
+}
+span.icon i {
+  padding: 2vh;
+  border-radius: 2vh;
+}
+.snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+#cursor {
+  pointer-events: none;
+  position: absolute;
+  width: 3vh;
+  height: 3vh;
+  z-index: 3;
+  background: transparent url("../img/cursor.png") no-repeat center;
+  background-size: contain;
+}
