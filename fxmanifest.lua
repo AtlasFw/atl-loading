@@ -5,27 +5,21 @@ game 'gta5'
 author 'Atlas Developers'
 description 'Atl Loading Screen'
 
-loadscreen 'html/loading.html'
+loadscreen 'html/ui.html'
 
-files { 
-	'html/loading.html',
-	'html/assets/img/bg/*.png',
-	'html/assets/img/bg/*.jpg',
-	'html/assets/img/*.png',
-	'html/assets/img/*.jpg',
-	'html/assets/css/*.css',
-	'html/assets/js/*.js',
-	'html/assets/audio/*.mp3',
-	'html/assets/audio/*.mp4'
+files {
+	'ui/atlas.webp',
+	'ui/ui.html',
+	'ui/css/main.css',
 }
 
 
 client_scripts {
-	'Client/*.lua'
+	'client/*.lua'
 }
 
 server_scripts {
-	'Server/*.lua'
+	'server/*.lua'
 }
 
 shared_scripts {
