@@ -9,37 +9,34 @@ window.addEventListener('load', _ => {
     window.addEventListener('message', function(e) {
         switch (e.data.eventName) {
             case 'startInitFunction':
-
+                value = value + 1/10
                 break;
             case 'startInitFunctionOrder':
-
+                value = value + 1/10
                 break;
             case 'initFunctionInvoking':
-
+                value = value + 1/10
                 break;
             case 'initFunctionInvoked':
-
+                value = value + 1/10
                 break;
             case 'endInitFunction':
-
+                value = value + 1/10
                 break;
             case 'startDataFileEntries':
-
+                value = value + 1/10
                 break;
             case 'onDataFileEntry':
-
+                value = value + 1/10
                 break;
             case 'endDataFileEntries':
-
-                break;
-            case 'performMapLoadFunction':
-
-                break;
-            case 'onLogLine':
-
+                value = value + 1/10
                 break;
         }
-        loading.style.width = `${value}%`;
+        loading.style.opacity = `${value / 100}`
+        if (value <= 100) {
+            loading.style.width = `${value}%`;
+        }
     });
 })
 
