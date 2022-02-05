@@ -5,23 +5,12 @@ game 'gta5'
 author 'Atlas Developers'
 description 'Atl Loading Screen'
 
-loadscreen 'html/ui.html'
+loadscreen 'ui/ui.html'
 
 files {
+    'ui/ui.html',
 	'ui/atlas.webp',
-	'ui/ui.html',
+    'ui/js/app.js',
 	'ui/css/main.css',
-}
-
-
-client_scripts {
-	'client/*.lua'
-}
-
-server_scripts {
-	'server/*.lua'
-}
-
-shared_scripts {
-	'Config.lua'
+    'ui/audio.mp3'
 }
