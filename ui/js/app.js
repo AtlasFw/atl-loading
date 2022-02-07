@@ -14,7 +14,7 @@ window.addEventListener('load', _ => {
                 counter++
                 break;
         }
-        if (value <= 100) {
+        if (counter <= 224) {
             value = (counter * 100) / 224;
             loading.style.opacity = `${value / 100}`;
             loading.style.width = `${value}%`;
