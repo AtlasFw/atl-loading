@@ -5,9 +5,7 @@ window.addEventListener('load', _ => {
         if (e.data.eventName == 'endInitFunction') {
             counter++
             if (counter == 2) {
-                setTimeout(() => {
-                    document.getElementById('app').style.opacity = '0';
-                }, 5000);
+                document.getElementById('app').style.opacity = '0';
             }
         }
     });
