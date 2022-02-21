@@ -15,3 +15,5 @@ files {
 	'ui/css/main.css',
     'ui/audio.mp3'
 }
+
+provide 'loading'

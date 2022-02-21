@@ -3,10 +3,7 @@ window.addEventListener('load', _ => {
     let counter = 0;
     window.addEventListener('message', (e) => {
         if (e.data.eventName == 'endInitFunction') {
-            counter++
-            if (counter == 2) {
-                document.getElementById('app').style.opacity = '0';
-            }
+            document.getElementById('app').style.opacity = '0';
         }
     });
 })
