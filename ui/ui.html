@@ -5,22 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Atlas Loading</title>
-    <!-- Production
-    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
-    -->
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <div id="app" class="opacity-1 transition-all duration-1000 ease-linear">
-        <div class="w-full h-full flex flex-col items-center justify-center">
-            <img class="w-2/6 animate-pulse" style="animation-duration: 3.5s; opacity: 0;" src="./atlas.webp" alt="Atlas Logo">
-            <div class="relative w-3/4 h-2 bg-slate-800 rounded-full ring-2 drop-shadow-lg">
-                <div id="loading-bar" style="background: #126dcc; width: 0%;" class="h-full rounded-full mb-2 overflow-hidden"></div>
-                <span class="relative text-white font-sans font-semibold drop-shadow-lg">Created by Atlas Team</span>
-            </div>
+    <div id="app">
+        <img style="animation-duration: 3.5s; opacity: 0;" src="./atlas.webp" alt="Atlas Logo">
+        <div class="">
+            <div id="loading-bar" style="background: #126dcc; width: 0%;"></div>
+            <span class="">Created by Atlas Team</span>
         </div>
-
     </div>
     <audio id="music" src="./audio.mp3" autoplay="true" hidden="true" loop="true"></audio>
     <script type="module" src="./js/app.js"></script>
