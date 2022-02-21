@@ -11,6 +11,7 @@ loadscreen_manual_shutdown 'yes'
 files {
     'ui/ui.html',
 	'ui/atlas.webp',
+    'ui/mesh.png',
     'ui/js/app.js',
 	'ui/css/main.css',
     'ui/audio.mp3'
