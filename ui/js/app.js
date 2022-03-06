@@ -18,4 +18,3 @@ window.addEventListener('load', _ => {
     }
   })
 })
-
