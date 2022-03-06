@@ -14,14 +14,13 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url("../mesh.png");
   height: 100%;
   overflow: hidden;
+  background-color: black;
 }
 
-#app img {
-  animation: pulse-animation 5s infinite ease-in-out;
-  height: 60%;
+#app video {
+  height: 100%;
   z-index: 99;
 }
 
