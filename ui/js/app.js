@@ -1,7 +1,6 @@
 window.addEventListener('load', _ => {
   const video = document.getElementById('video');
   let counter = 0;
-
   window.addEventListener('message', (e) => {
     // Needs to be tested because atm it's not smooth
     if (e.data.eventName == 'endInitFunction') {
