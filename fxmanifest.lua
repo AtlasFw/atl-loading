@@ -7,7 +7,6 @@ loadscreen 'ui/ui.html'
 loadscreen_manual_shutdown 'yes'
 
 files {
-  'ui/yt.mp4',
   'ui/ui.html',
   'ui/js/app.js',
 	'ui/css/main.css'
