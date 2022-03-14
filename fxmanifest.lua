@@ -1,7 +1,9 @@
 fx_version 'cerulean'
 game 'gta5'
-author 'Atlas Developers'
-description 'Atl Loading Screen'
+
+name 'atl-loading'
+author 'Atlas Framework Developers'
+version '0.0.1'
 
 loadscreen 'ui/ui.html'
 loadscreen_manual_shutdown 'yes'
