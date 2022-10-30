@@ -9,9 +9,7 @@ loadscreen 'web/index.html'
 loadscreen_manual_shutdown 'yes'
 
 files {
-  'web/index.html',
-  'web/js/main.js',
-	'web/css/main.css'
+  'web/**/*',
 }
 
 provide 'loading'
