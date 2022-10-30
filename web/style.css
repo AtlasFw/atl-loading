@@ -34,20 +34,23 @@ body {
   margin-right: 20px;
   margin-bottom: 20px;
   stroke: #003b69;
-  background-color: rgba(15, 23, 42, 0);
   border-radius: 4px;
   width: 36px;
   height: 36px;
   border: none;
   stroke-width: 2;
   z-index: 2;
-  background-image: linear-gradient(rgba(15, 23, 42, 0.6), rgba(5, 8, 14, 0.4));
+  background: rgb(15,23,42);
+  background: -moz-linear-gradient(121deg, rgba(15,23,42,0.6) 0%, rgba(5,8,14,0.4) 100%);
+  background: -webkit-linear-gradient(121deg, rgba(15,23,42,0.6) 0%, rgba(5,8,14,0.4) 100%);
+  background: linear-gradient(121deg, rgba(15,23,42,0.6) 0%, rgba(5,8,14,0.4) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0F172A99",endColorstr="#05080E66",GradientType=1);
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
 
 #pause:hover {
-  background-color: rgba(15, 23, 42, 0.5);
+  background-color: rgba(15,23,42, 0.4);
 }
 
 #pause svg {
